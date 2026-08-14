@@ -1,0 +1,12 @@
+import tkinter as tkinter
+
+window=tkinter.Tk()
+window.title("Calculator")
+window.geometry("600x400")
+
+lblname=tkinter.Label(window,text="Enter First Number")
+lblname.pack(pady=10)
+textname=tkinter.Entry(window,width=30)
+textname.pack(pady=10)
+
+window.mainloop()
